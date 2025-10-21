@@ -25,28 +25,28 @@
         compatible = "zmk,combos";
 
         combo_delete {
-            bindings = <&kp DELETE>;
-            key-positions = <16 17>;
+            bindings = <&kp BSPC>;
+            key-positions = <15 16>;
         };
 
         combo_gui {
-            bindings = <&kp LGUI>;
-            key-positions = <9 10>;
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <8 9>;
         };
 
         combo_esc {
             bindings = <&kp ESC>;
-            key-positions = <20 21>;
+            key-positions = <19 20>;
         };
 
         combo_sleep {
             bindings = <&kp C_SLEEP>;
-            key-positions = <18 19>;
+            key-positions = <17 18>;
         };
 
         combo_power_off {
             bindings = <&kp C_POWER>;
-            key-positions = <6 7>;
+            key-positions = <5 6>;
         };
 
     };
