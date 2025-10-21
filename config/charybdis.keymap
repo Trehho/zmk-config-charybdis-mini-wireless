@@ -76,9 +76,9 @@
         SUP {
             bindings = <
 &trans  &trans    &trans   &trans    &trans     &trans     &trans    &trans    &kp PG_UP   &kp PG_DN    &trans     &trans
-&trans  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT  &ktrans    &kp PIPE  &kp LT    &kp GT      &kp SEMI     &kp COLON  &trans
+&trans  &kp LEFT  &kp UP   &kp DOWN  &kp RIGHT  &trans     &kp PIPE  &kp LT    &kp GT      &kp SEMI     &kp COLON  &trans
 &trans  &trans    &trans   &trans    &trans     &kp BSLH   &trans    &kp HOME  &kp END     &trans       &trans     &trans
-                           &trans  &trans    &trans     &trans    &trans
+                           &trans    &trans     &trans     &trans    &trans
             >;
         };
 
